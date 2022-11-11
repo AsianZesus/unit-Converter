@@ -3,13 +3,13 @@
 body{
     display: flex;
     justify-content: center;
-    background: #2e2d2d;
+    background: #1C1C1C;;
 }
 
 #container {
     display: flex;
-    width: 500px;
-    height: 600px;
+    width: 550px;
+    height: 729px;
     margin-top: 15px;
     background: #F4F4F4;
 }
@@ -41,6 +41,16 @@ body{
 
     border: 2px solid #B295FF;
     border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24px;
+    /* or 42% */
+
+    text-align: center;
+    background: #6943FF;
+
 }
 
 #headingButton {
@@ -51,4 +61,24 @@ body{
 
     background: #FFFFFF;
     border-radius: 5px;
+    border: 0px;
+    margin-left: 185px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 27px;
+}
+
+#lengthContainer {
+    width: 485px;
+    height: 108.57px;
+    text-align: center;
+    margin-top: 86px;
+    margin-left: 26px;
+
+    background: #FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
 }
