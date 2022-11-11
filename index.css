@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background: #2e2d2d;
+}
+
+#container {
+    display: flex;
+    width: 500px;
+    height: 600px;
+    margin-top: 15px;
+    background: #F4F4F4;
+}
+
+#headingContainer {
+    width: 550px;
+    height: 285px;
+    background: #6943FF
+}
+
+#headingPara {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+#headingRectangle {
+    box-sizing: border-box;
+    margin-left: 185px;
+    width: 117px;
+    height: 83px;
+    left: 217px;
+    top: 101px;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+
+#headingButton {
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    top: 209px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
